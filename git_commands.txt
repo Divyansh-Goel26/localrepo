@@ -1,0 +1,48 @@
+// clone
+it is used if we want any of aur github file should be copied to our laptop/pc 
+ command:-->  git clone https://github.com/Divyansh-Goel26/Divyansh-demo.git 
+
+
+ // status 
+ to check the status of our git repo
+ command:-->  git status
+
+ // ADD
+ add new or unchanged file in ur directory 
+command:--> git add file name
+
+ // commit
+ it records the changes 
+command:--> git -m "some messege"
+
+ // Push
+ it upload local repo to remote repo  
+command:--> git push origin main
+
+// gitinit
+
+to make new git project 
+1. create a folder
+2. open terminal of ide 
+3. cd folder
+4. command:-> gi init
+now we can do git operation in it 
+
+
+// init commands 
+1. git init :- to create a new repo
+2. git remote add origin <-link->
+3. git remote -v (to verify remote)
+4. git branch  (to check branch)
+5. git branch -M main (to rename branch)
+6. git push origin main
+
+
+// Branch commands
+1. git branch  (to check branch)
+2. git branch -M main (to rename branch)
+3. git checkout "branch name "  (to switch from one branch to other)
+4. git checkout -b "branch name"  (to create a new branch)
+5. git branch -d "branch name" (to delete branch)
+
+
